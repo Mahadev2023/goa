@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Mahadev2023/goa/mypackage/dog"
+	"github.com/Mahadev2023/mypackage/dog"
 )
 
 type canine struct {
@@ -17,4 +17,5 @@ func main() {
 		age:  dog.Years(10),
 	}
 	fmt.Println(fido)
+	fmt.Println(dog.Mg())
 }

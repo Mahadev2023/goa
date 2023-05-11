@@ -1,3 +1,3 @@
-module github.com/Mahadev2023/goa/mypackage
+module github.com/Mahadev2023/mypackage
 
 go 1.20
